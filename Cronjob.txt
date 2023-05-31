@@ -1,0 +1,4 @@
+content: 
+- 0 8 * * * curl -s https://knoitall.com/security/session/delete_bug_session_files
+- 0 17 * * * curl -s https://knoitall.com/member/notification/send_notification_email 
+- 0 7 * * * curl -s https://knoitall.com/member/checking/delete-unused-ckeditor-image-files
